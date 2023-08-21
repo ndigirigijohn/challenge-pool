@@ -1,4 +1,4 @@
-const container = [
+var lettersContainer = [
     'abc',
     'def',
     'ghi',
@@ -7,24 +7,23 @@ const container = [
     'pqrs',
     'tuv',
     'wxyz'
-
-]
-
-const letterCombinations = (digits) => {
-    let result = []
-    if (digits.length === 0) return result
-    const dfs = (index, path) => {
+];
+var letterCombinationsFunc = function (digits) {
+    var result = [];
+    if (digits.length === 0)
+        return result;
+    var dfs = function (index, path) {
         if (index === digits.length) {
-            result.push(path)
-            return
+            result.push(path);
+            return;
         }
-        const letters = container[digits[index] - '2']
-        for (const letter of letters) {
-            dfs(index + 1, path + letter)
+        var letters = lettersContainer[Number(digits[index]) - 2];
+        for (var _i = 0, letters_1 = letters; _i < letters_1.length; _i++) {
+            var letter = letters_1[_i];
+            dfs(index + 1, path + letter);
         }
-    }
-    dfs(0, '')
-    return result
-}
-
-console.log(letterCombinations('23'))
+    };
+    dfs(0, '');
+    return result;
+};
+console.log(letterCombinationsFunc('23'));
