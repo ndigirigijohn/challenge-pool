@@ -21,7 +21,7 @@ class Program
         List<string> result = new List<string>();
         if (digits.Length == 0) return result;
 
-        void Dfs(int index, string path)
+        void Dfs (int index, string path)
         {
             if (index == digits.Length)
             {
@@ -36,7 +36,7 @@ class Program
             }
         }
 
-        Dfs(0, "");
+        Dfs(0, '');
         return result;
     }
 
