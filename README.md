@@ -1,2 +1,10 @@
-# challenges-pool
-To become a better coder, continuous upskilling is the key, and nothing beats regular practice. In addition to my daily work and projects, I've taken up the exciting challenge of solving coding problems as a hobby. This helps me stay sharp and write cleaner, more efficient code. Here in this repository, I'm documenting the coding challenges I complete in different languages like JavaScript, TypeScript, C#, and Python. Each challenge has its own folder with a detailed readme, explaining the problem and showcasing my solutions. As I progress, I'll be updating these solutions regularly with new code and comments to share insights and improvements
+## Leet Pool
+Welcome to the Leet Pool repository! This is where I tackle coding problems to enhance my skills. In addition to my daily projects, I've taken up coding challenges as a hobby to stay sharp and write efficient code.
+
+## What's Inside
+This repository holds my solutions for coding challenges in TypeScript, JavaScript, and C#. Each challenge has its own folder with a detailed readme, explaining the problem and showcasing my solutions.
+
+## Why It Matters
+Regular practice is crucial for becoming a better coder. By working on these challenges, I'm improving my problem-solving abilities and coding proficiency. I'll be updating this repository with new solutions and insights as I progress.
+
+Thanks for checking out my journey !
