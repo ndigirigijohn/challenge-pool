@@ -49,7 +49,9 @@ function generateMagicSquares(magicSquare1){
 }
 
 function formingMagicSquare(s) {
+    
     console.log("Magic squares", generateMagicSquares(s))
+    //There are finite number of magic squares, so we can just hardcode them
     const squares = ['618753294', '816357492', '834159672', '438951276', '672159834', '276951438', '294753618', '492357816'];
     let min = 100;
     let cost = (s, squares) => {
