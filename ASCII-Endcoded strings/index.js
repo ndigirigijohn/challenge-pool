@@ -26,14 +26,12 @@ function decode (s) {
     //reverse input string
     const reversed = s.split('').reverse().join('')
 
-    console.log("reversed",reversed)
 
     //pick valid codes successively from reversed string, length 2 or 3
     const codes = []
-    let k = 0
-    for (let i = k; i < reversed.length-1; i++) {
+    let i=0
+    for (i; i < reversed.length-1; i++) {
         let code = reversed[i] + reversed[i + 1]
-        console.log("code",code)
         if (code >= 65 && code <= 90) {
             codes.push(code)
             i=i+1
@@ -45,14 +43,11 @@ function decode (s) {
             i=i+1
         } else if (code >=10&& code<=12){
             code = code + reversed[i + 2]
-            console.log("new code",code)
             codes.push(code)
             i=i+2
         }
     }
 
-
-    console.log("codes",codes)
 
     //convert codes to letters
     let letters = []
@@ -67,12 +62,12 @@ function decode (s) {
         }
     }
 
-    console.log("letters",letters)
-    
+return letters.join('')    
   
 
 
 
 }
 
-decode('7010117928411101701997927')
+
+console.log(decode('23511011501782351112179911801562340161171141148'))
