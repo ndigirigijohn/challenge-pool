@@ -1,4 +1,4 @@
-## Leet Pool
+## Challenge Pool
 Welcome to the Challenge Pool repository! This is where I tackle coding problems to enhance my skills. In addition to my daily projects, I've taken up coding challenges as a hobby to stay sharp and write efficient code.
 
 ## What's Inside
